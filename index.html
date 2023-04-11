@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather Widget</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section id = "wrapper">
+            <section id = "weather-widget">
+
+
+                <form id = "city-form">
+                    <label for = "city-input">Enter a city:</label>
+                    <input type = "text" id = "city-input" placeholder = "Type desired city here..." required>
+                    <button type = "submit" id = "submitBtn">Search</button>
+                </form>
+
+
+                <div id = "weather-output">
+                    <div class = "widget-output1" id = "city"></div>
+                    <div class = "widget-output1" id = "image"></div>
+                    <div id = "weather-temp"></div>
+                    <div id = "weather-condition"></div>
+                </div>
+
+                <div id = "weather-output-future-dates"></div>
+
+            </section>
+        </section>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
